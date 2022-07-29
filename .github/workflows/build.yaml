@@ -14,7 +14,9 @@ jobs:
   container:
     runs-on: ubuntu-latest
     defaults:
-      working-directory: puppeteer
+      run:
+        shell: bash
+        working-directory: puppeteer
     steps:    
     - uses: actions/checkout@v2
     - name: Docker Build
