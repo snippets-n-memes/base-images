@@ -1,4 +1,4 @@
-name: Docker for when you want an image
+name: Build on DinD
 on:
   workflow_dispatch:
 
